@@ -1,5 +1,12 @@
 #include <iostream>
+#include "lib.h"
 
 int main(){
-  return 0;
+    char c;
+    cin >> c;
+    if (isChar(c)) {
+        cout << convert(c);
+    }
+    else
+        cout << "errore";
 }
